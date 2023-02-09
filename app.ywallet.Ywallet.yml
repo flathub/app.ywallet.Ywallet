@@ -14,8 +14,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://github.com/hhanh00/zwallet/releases/download/v1.2.16/zwallet.tgz
-        sha256: 896d62aec7b0cdd9c8376c66c0e9e28961cf57a72b7852766ea6bf2c055fabfa
+        url: https://github.com/hhanh00/zwallet/releases/download/v1.3.0%2B371/zwallet.tgz
+        sha256: 6e2d06a03caec4542a6824b5b2ceb0b5ee23e8c66c21f8f5fc7bdd10eb376f5a
         strip-components: 0
     build-commands:
       - mkdir /app/bin
@@ -24,8 +24,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/hhanh00/zwallet/releases/download/v1.2.16/libwarp_api_ffi.so
-        sha256: 6efd54656d56bae1b46545a9652f261fc17235c529afcd2cd1fe947efe9b62ad
+        url: https://github.com/hhanh00/zwallet/releases/download/v1.3.0%2B371/libwarp_api_ffi.so
+        sha256: 2fcea10b48bf3b6e65d10f906c509ddd956de0700cb6ae5eecbb8bd376a8b521
     build-commands:
       - cp libwarp_api_ffi.so /app/lib
   - name: misc
