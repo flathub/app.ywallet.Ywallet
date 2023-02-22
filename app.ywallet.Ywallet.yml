@@ -24,7 +24,7 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/hhanh00/zwallet/releases/download/v1.3.0%2B371/libwarp_api_ffi.so
+        url: https://github.com/hhanh00/zwallet/releases/download/v1.3.3%2B379/libwarp_api_ffi.so
         sha256: d84787994a1b5d8b5aec580ff98cb4e0c881f66eff5f33a9ec208060cc7dbe66
     build-commands:
       - cp libwarp_api_ffi.so /app/lib
